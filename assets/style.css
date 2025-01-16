@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e6e6e6;
+}
+/* .wrraper{
+    background-color: blue;
+   width: 1600px;
+   height: 100%;
+   margin: auto;
+   
+} */
+/* SectionOne */
+.SectionOne{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    justify-content: space-between;
+    max-width:1600px;
+    width: 100%;
+    display: flex;
+}
+.infoleft{
+    display: flex;
+    padding: 10px;
+}
+.infoleft ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+.infomid{
+    padding: 10px;
+}
+.infomid ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+
+}
+.inforight{
+    /* background-color: blue; */
+    padding: 10px;
+    
+
+}
+.inforight ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+
+}
+/* sectionTwo */
+.SectionTwo{
+    width: 100%;
+    background-color:#f8f8f8;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    max-width:1600px;
+    width: 100%;
+    display: flex;
+}
+.name{
+    width: 20%;
+    justify-content: left;
+    margin: 20px 0px 20px 0px;
+    
+    
+}
+.searchbar{
+    width: 40%;
+    display: flex;
+    margin: 20px 0px 20px 0px;
+
+   
+}
+.searchbar input{
+    width: 500px;
+    height: 40px;
+}
+.searchicon{
+    height: 40px;
+    width: 50px;
+    background-color: blue;
+    align-content: center;
+    padding-left:5px ;
+    color: whitesmoke;
+    font-size: small;
+}
+.header3{
+    /* background-color: rgb(56, 219, 240); */
+    width: 20%;
+    margin: 20px 0px 20px 0px;
+
+}
+.header3 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+.header4{
+    justify-content: right;
+     width: 20%;
+    font-size: 15px;
+    margin: 20px 0px 20px 0px;
+ 
+}
+.header4 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px; 
+    justify-content: end;
+}
+/* SectionThree */
+.SectionThree{
+    width: 100%;
+    background-color: #0057d0;
+    display: flex;
+    justify-content: center;
+    }
+.hero{
+    display: flex;
+    max-width:1600px;
+    width: 100%;
+}
+.heroleft{
+    width:20%;
+    background-color: rgb(250, 216, 65);
+    padding:20px;
+}
+.heromid{
+    width:55%;
+    padding: 20px;
+    color: whitesmoke;
+}
+.heromid ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.heroright{
+    width: 25%;
+    display:flex;
+    gap:15px;
+    justify-content: end;
+
+}
+.blog{
+    display: flex;
+    width: 30%;
+    background-color: rgb(250, 216, 65);
+    justify-content: center;
+    align-items: center;
+}
+.Contact{
+    padding-top: 20px;
+    display: flex;
+    justify-content: end;
+    color: whitesmoke;
+}
+
+/* SectionFour */
+.SectionFour{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    }
+.HeroTwo{
+    display: flex;
+    max-width:1600px;
+    width: 100%;
+    padding: 20px 0px 20px 0px; 
+    gap:40px
+}
+.HeroTwo1{
+    height: 400px;
+    width: 70%;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    overflow: hidden;
+}
+.HeroTwo1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.HeroTwo2{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 30%;
+    gap:20px;
+}
+.HeroTwo2-1{
+    border-radius: 15px;
+    height: 200px;
+    overflow: hidden;
+}
+.HeroTwo2-1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.HeroTwo2-2{
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    height: 200px;
+    overflow: hidden;
+}
+.HeroTwo2-2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* Section Five */
+.SectionFive{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.Five{
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    max-width:1600px;
+    width: 100%;    
+}
+.FiveOne{
+    height: 80px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.FiveOne-1{
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid #0057d0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: rgb(236, 117, 31);
+}
+.FiveOne-2{
+    width: 80%;
+    font-size: x-large;
+    padding: 10px 0px 0px 5px;
+}
+.FiveTwo{
+    height: 80px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.FiveTwo-1{
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid #0057d0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: rgb(236, 117, 31);
+}
+.FiveTwo-2{
+    width: 80%;
+    font-size: x-large;
+    padding: 10px 0px 0px 5px;
+}
+.FiveThree{
+    height: 80px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.FiveThree-1{
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid #0057d0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: rgb(236, 117, 31);
+}
+.FiveThree-2{
+    width: 80%;
+    font-size: x-large;
+    padding: 10px 0px 0px 5px;
+}
+.FiveFour{
+    height: 80px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.FiveFour-1{
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid #0057d0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: rgb(236, 117, 31);
+}
+.FiveFour-2{
+    width: 80%;
+    font-size: x-large;
+    padding: 10px 0px 0px 5px;
+}
+
+/* Section Six */
+.SectionSix{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.six{
+    margin: 50px 0px 0px 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width:1600px;
+    width: 100%;  
+    justify-items: center;
+    
+}
+.six h1{
+    /* margin-bottom: 20px; */
+    font-size: xx-large;
+}
+.six div{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(211, 211, 211, 211);
+}
+.sixone{
+    display: flex;
+ 
+  
+    margin-top: 50px;
+}
+.sixone div{
+    color: black;
+    font-weight: 500;
+    width: 200px;
+    background-color: #eeedee;
+    padding: 8px 10px;
+}
+/* section seven */
+.SectionSeven{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.seven{
+    margin: 50px 0px 50px 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width:1600px;
+    width: 100%;  
+    justify-items: center;
+    /* border: 2px solid black; */
+    
+}
+.your-carousel-class{
+    width: 100%;
+    height: 400px;
+    
+    
+}
+.clr{
+   
+    height: 100%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 30px;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.clr img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+   
+}
+.abs{
+   position: absolute;
+   bottom: 5px;
+   font-size: 20px;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   
+}
+.abs div{
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    padding: 5px 15px;
+    
+}
+
+/* section eight */
+.SectionEight{
+    width: 100%;
+    background-color:#f8f8f8;
+    display: flex;
+    justify-content: center;
+}
+.eight{
+    margin: 50px 0px 50px 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width:1600px;
+    width: 100%;  
+    justify-items: center;
+    
+}
+.eight h1{
+    /* margin-bottom: 20px; */
+    font-size: xx-large;
+}
+.eight div{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(211, 211, 211, 211);
+}
+.eightone{
+    display: flex;
+ 
+  
+    margin-top: 50px;
+}
+.eightone div{
+    color: black;
+    font-weight: 500;
+    width: 200px;
+    background-color: #f8f8f8;
+    padding: 8px 10px;
+}
+
+/* Section nine */
+.SectionNine{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.nine{
+    margin: 50px 0px 50px 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width:1600px;
+    width: 100%;  
+    justify-items: center;
+    /* border: 2px solid black; */
+    
+}
+.your-carousel-class2{
+    width: 100%;
+    height: 600px;
+    
+    
+}
+.clr2{
+    height: 100%;
+    margin-right: 15px;
+    /* padding: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 30px;
+    width: 100%;
+    /* position: relative; */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 1.5px 1.5px 0.5px 0.5px rgba(0, 0, 0, 0.0);
+    border: 2px solid #cfcfcf;
+}
+
+
+.nineimg img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center;
+   
+}
+.ninethird{
+    height: 70%;
+     display: flex;
+     background-color: white;
+
+}
+
+.ninecontent{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.ninecontent p{
+    margin: 5px 0px 20px 0px;
+}
+.ninecontent1{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    /* padding: 10px; */
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid #cfcfcf;
+    box-shadow: 1.5px 1.5px 0.5px 0.5px rgba(0, 0, 0, 0.0);
+
+}
+.ninecontent12{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.ninecontent2{
+    height: 100%;
+    width: 15%;
+ }
+.ninecontent2 div{
+    height: 50%;
+    background-color:#cfcfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.5);
+}
+.ninecontent3{
+    /* border: 2px solid black; */
+    width: 65%;
+    background-color: #0057d0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.ninethirdlogo{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    /* padding: 10px; */
+    overflow: hidden;
+}
+.ninethirdlogo div{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nineone{
+    
+    font-size: larger;
+    padding: 10px;
+    background-color: #f8f8f8;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .clr2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+   
+}
+.abs2{
+   position: absolute;
+   bottom: 5px;
+   font-size: 30px;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   
+}
+.abs2 div{
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    padding: 5px 15px;
+    
+} */
+
+/* sectio ten */
+.SectionTen{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.ten{
+    margin: 50px 0px 50px 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width:1600px;
+    width: 100%;  
+    justify-items: center;
+    
+}
+.ten h1{
+    /* margin-bottom: 20px; */
+    font-size: xx-large;
+}
+.ten div{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(211, 211, 211, 211);
+}
+.tenone{
+    display: flex;
+ 
+  
+    margin-top: 50px;
+}
+.tenone div{
+    color: black;
+    font-weight: 500;
+    width: 200px;
+    background-color: #eeedee;
+    padding: 8px 10px;
+}
