@@ -179,7 +179,7 @@ body{
     max-width:1600px;
     width: 100%;
     padding: 20px 0px 20px 0px; 
-    gap:40px
+    gap:20px
 }
 .HeroTwo1{
     height: 400px;
@@ -338,7 +338,9 @@ body{
 }
 .six h1{
     /* margin-bottom: 20px; */
-    font-size: xx-large;
+    font-size: 60px;
+    color: black;
+    font-weight: 1000;
 }
 .six div{
     text-align: center;
@@ -437,7 +439,9 @@ body{
 }
 .eight h1{
     /* margin-bottom: 20px; */
-    font-size: xx-large;
+    font-size: 60px;
+    color: black;
+    font-weight: 1000;
 }
 .eight div{
     text-align: center;
@@ -446,15 +450,13 @@ body{
 }
 .eightone{
     display: flex;
- 
-  
     margin-top: 50px;
 }
 .eightone div{
     color: black;
     font-weight: 500;
     width: 200px;
-    background-color: #f8f8f8;
+    background-color: #cdcdcd;
     padding: 8px 10px;
 }
 
@@ -615,27 +617,44 @@ body{
 /* sectio ten */
 .SectionTen{
     width: 100%;
-    background-color: white;
+    background-color:#eeedee;
     display: flex;
     justify-content: center;
+ }
+
+.tenbutton button{
+    background-color: #0057d0;
+    height: auto;
+    font-size: large;
+    padding: 15px ;
+    color: #cfcfcf;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 60px;
+    
+}
+.tenbutton{
+    margin-bottom: 40px;
 }
 .ten{
-    margin: 50px 0px 50px 0px;
+    margin: 5px 0px 50px 0px;
     /* display: flex; */
     /* flex-direction: column; */
     max-width:1600px;
     width: 100%;  
     justify-items: center;
-    
-}
+ }
 .ten h1{
     /* margin-bottom: 20px; */
-    font-size: xx-large;
+    font-size: 60px;
+    color: black;
+    font-weight: 1000;
 }
 .ten div{
     text-align: center;
     font-size: x-large;
     color: rgb(211, 211, 211, 211);
+
 }
 .tenone{
     display: flex;
@@ -647,6 +666,390 @@ body{
     color: black;
     font-weight: 500;
     width: 200px;
-    background-color: #eeedee;
+    background-color: #cdcdcd;
     padding: 8px 10px;
 }
+.tencontent{
+    border:2px soid black;
+}
+
+
+/* Section eleven */
+.SectionEleven{
+    width: 100%;
+    height: 800px;
+    background-color:#eeedee;
+    display: flex;
+    justify-content: center;
+ }
+ .eleven{
+    margin: 5px 0px 50px 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width:1600px;
+    width: 100%;  
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+ }
+ .oranged{
+    height: 3px;
+    background: orangered;
+    width: 130px;
+ }
+ .elevenleft{
+    height: 700px;
+    width: 25%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: x-large;
+    background-color: #cdcdcd;
+ }
+ .elevenleft .img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+ .elevenleftimg{
+    height: 500px;
+    overflow: hidden;
+ }
+ .elevenright{
+    height: 700px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 45px;
+    background-color:white;
+   
+ }
+ .elevenrightone{
+    /* border: 2px solid rgb(58, 153, 30); */
+    width: 100%;
+    height: 600px;
+
+    object-fit: cover;
+    overflow: hidden;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: x-large;
+    background-color: white;
+ }
+ .elevenright .img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+ .elevenrightone_inner{
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+    overflow: hidden;
+    width: 30%;
+    padding: 10px;
+    margin-right: 30px;
+    
+ }
+ .elevenrightone .img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+ }
+ .elevenrightone_innerimg{
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+    object-fit: contain;
+   
+ }
+ .elevenrightone_innerimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+ .elevenicon{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #eeedee;
+ }
+ 
+
+
+ /* Section twelve */
+ .SeactionTwelve{
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+ }
+ .twelve{
+    margin: 5px 0px 50px 0px;
+    max-width:1600px;
+    width: 100%;  
+    height: 350px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .heading{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    
+ }
+ .your-carousal-class3{
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 30px;
+
+ }
+ .clr3{
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    width: 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+ }
+ .clr3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+
+ /* Section thirteen */
+ .SectionThirteen{
+    width: 100%;
+    background-color:#3c4a55;
+    display: flex;
+    justify-content: center;
+}
+ .thirteen{
+    margin: 5px 0px 50px 0px;
+    max-width:1600px;
+    width: 100%;  
+    height: 450px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 80px;
+ }
+ .SectionThirteen_content{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-bottom: 40px;
+    color: grey;
+ }
+
+
+ /* Section Fourteen */
+ .SectionFourteen{
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+ }
+ .fourteen{
+    margin: 100px 0px 50px 0px;
+    max-width:1600px;
+    width: 100%;  
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .SectionFourteen_button{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+
+    
+ }
+ .SectionFourteen_button div{
+    padding: 20px 15px 20px 15px;
+    align-items: center;
+    font-size: 25px;
+    background-color: #eeedee;
+    border-radius: 8px;
+ }
+ .your-carousal-class4{
+    /* border: 2px solid black; */
+    padding-left:20px ;
+    height: 800px;
+    display: flex;
+    margin-top: 30px;
+
+ }
+ .clr4{
+    box-shadow: 2px 2px 5px rgba(231, 207, 207, 0.15);
+    background-color: #ffffff;
+    /* width: 35%; */
+    margin-right: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    /* object-fit: contain; */
+ }
+ .clr4 img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+ }
+ .abss{
+    position: absolute;
+    bottom: 50%;
+    background-color: #e7e5e7;
+    font-size: larger;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+ }
+ .clr4_content{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+ }
+ .clr4_content p{
+    color: grey;
+    font-size: larger;
+ }
+ .date{
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: #0057d0;
+    color: #ffffff;
+    /* font-size: xx-large; */
+ }
+
+
+
+ /* Section fifteen */
+ .SectionFifteen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .fifteen{
+    margin: 100px 0px 50px 0px;
+    max-width:1600px;
+    width: 100%;  
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+.fifteen_inner{
+    height: 400px;
+    display: flex;
+    gap: 80px;
+    margin-top: 60px;
+}
+.fifteen_inner_div{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.fifteen_inner_one{
+    height: 33%;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+.fifteen_inner_one h1{
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /* section sixteen */
+ .SectionSixteen{
+    width: 100%;
+    background-color:#3c4a55;
+    display: flex;
+    justify-content: center;
+ }
+ .sixteen{
+    margin: 100px 0px 50px 0px;
+    max-width:1600px;
+    width: 100%;  
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .sixteen_inner{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ .sixteen_inner_div{
+    height: 130px;
+    width:25%;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    gap: 10px;
+
+ }
+ .sixteen_img{
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+ }
+ .sixteen_img img{
+   width: 100%;
+    height: 100%;
+    object-fit: contain;
+ }
+ .sixteen_content{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: x-large;
+ 
+
+ }
