@@ -479,7 +479,7 @@
         <div class="SeactionTwelve">
             <div class="twelve">
                 <div class="heading" style="margin-top:50px ;"> Shop by Brand</div>
-                <div ><div class="oranged"></div></div>
+                <div class="oranged_div"><div class="oranged"></div></div>
                 <div>
                     <div class="your-carousal-class3">
                         <div class="clr3"><img src="assets/photos/logo1-Dq6gICak.png" alt="Slide 1"></div>
@@ -500,7 +500,7 @@
         <div class="SectionThirteen">
             <div class="thirteen">
                 <div class="heading" style="color: white;"> Improved Galery Module  </div>
-                <div ><div class="oranged"></div></div>
+                <div class="oranged_div" ><div class="oranged"></div></div>
                 <div class="SectionThirteen_content">
                     The Gallery module supports images, videos and can also act as banner that can point to any other page or open other popup modules. <br>
                     Create different modules with images, videos, banners or a combination of all. Add your modules on any page in any grid format.
@@ -525,7 +525,7 @@
         <div class="SectionFourteen">
             <div class="fourteen">
                 <div class="heading">From our Blog</div>
-                 <div ><div class="oranged"></div></div>
+                 <div class="oranged_div" ><div class="oranged"></div></div>
                 <div class="SectionThirteen_content">
                     Journal Comes with its own simple yet powerful blog. With the new advanced typography styles your past page design will be unmatched.
                 </div>
@@ -605,7 +605,7 @@
         <div class="SectionFifteen">
             <div class="fifteen">
                 <div class="heading">what are people saying about us</div>
-                <div ><div class="oranged"></div></div>
+                <div class="oranged_div"><div class="oranged"></div></div>
 
                 <div class="fifteen_inner">
                     <div class="fifteen_inner_div">
@@ -720,7 +720,7 @@
                 <div class="eighteen_inner">
                         <div class="eighteen_inner_one">
                             <h3 class="footer_heading">About us </h3>
-                            <div style="width:10px;"><div class="oranged"></div></div>
+                            <div style="width:10px;"><div class="oranged" style="width: 60px;"></div></div>
 
                             <ul>
                                 <li>About us</li>
@@ -830,6 +830,13 @@
                                         slidesToScroll: 1,
                                     }
                                 },
+                                {
+                                    breakpoint: 800, // When screen width is 1024px or smaller
+                                    settings: {
+                                        slidesToShow: 2, // Show 3 slides
+                                        slidesToScroll: 1,
+                                    }
+                                },
                             ]
             });
         });
@@ -884,6 +891,13 @@
                                     breakpoint: 750, // When screen width is 1024px or smaller
                                     settings: {
                                         slidesToShow: 1, // Show 3 slides
+                                        slidesToScroll: 1,
+                                    }
+                                },
+                                {
+                                    breakpoint: 800, // When screen width is 1024px or smaller
+                                    settings: {
+                                        slidesToShow: 3, // Show 3 slides
                                         slidesToScroll: 1,
                                     }
                                 },

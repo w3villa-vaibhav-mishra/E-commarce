@@ -1192,11 +1192,20 @@ body{
     display: flex;
     justify-content: space-between;
  }
+ .oranged_div{
+    display: flex;
+    justify-content: center;
+ }
 
 /* ############# */
 /* Media queries */
 /* ############## */
+
 @media (max-width:425px){
+    .oranged_div{
+        display: flex;
+        justify-content: left;
+     }
     *{
         margin: 0;
         padding: 0;
@@ -2084,7 +2093,7 @@ body{
         width: 100%;
         /* height: 100%; */
         background-color: white;
-        display: flex;
+        display: none;
         justify-content: center;
         /* border: 2px solid black; */
 
@@ -2258,6 +2267,7 @@ body{
         gap: 20px;
         margin-top: 10px;
         margin-bottom: 10px;
+        /* border: 2px solid black; */
      }
      .sixteen_inner_div{
         height: 250px;
@@ -2266,7 +2276,11 @@ body{
         flex-direction: column;
         background-color: #ffffff;
         border-radius: 10px;
+        /* border: 2px solid black; */
+        overflow: hidden;
         gap: 10px;
+        margin-left: 5px;
+        margin-top: 5px;
         font-size: 14px;
     
      }
@@ -2430,3 +2444,6 @@ body{
 
 
 }
+
+
+
